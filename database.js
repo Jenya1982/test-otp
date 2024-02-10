@@ -2,10 +2,10 @@ import pkg from 'pg';
 
 const { Pool } = pkg;
 const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'testotp',
-    password: 'A317982Ba@',
+    user: 'your_db_user',
+    host: 'your_db_host',
+    database: 'your_db_name',
+    password: 'your_db_pass',
     port: 5432, 
 });
 
