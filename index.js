@@ -106,13 +106,13 @@ async function generateOtp() {
 }
 
 async function sendEmail(email, otp) {
-    const myEmail = 'colorbites555@gmail.com';
+    const myEmail = 'your_email';
     try {
         let transporter = nodemailer.createTransport({
             service: 'Gmail',
             auth: {
                 user: myEmail,
-                pass: 'zveu gvvd rbfy wolr' 
+                pass: 'generate on google 2-step verification on GoogleOne acc' 
             }
         });
 
