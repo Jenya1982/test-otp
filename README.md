@@ -1,4 +1,5 @@
-For to start to work on an app in main folder: npm start
+1) For to start to work on an app in main folder: npm start
+2) Prerequisites: PostgreDB, Generated on GoogleOne Accounts 2-step pass for apps for to send mails from gmail
 The roadmap of an app:
 on the main screen (react) user inputs his/her email and click button "Receive OTP", the query sent to the server (express.js), 
 and the otp constructed based on the demands of an app. Then the email of user, generated otp, and timestamp when otp was created
