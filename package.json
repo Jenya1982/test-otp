@@ -8,7 +8,7 @@
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "client": "cd client && npm start",
     "server": "node index.js",
-    "test": "jest"
+    "test": "jest --config=jest.config.js"
   },
   "dependencies": {
     "assert": "^2.1.0",

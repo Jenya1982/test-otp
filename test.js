@@ -1,7 +1,7 @@
-const axios = require('axios');
-const assert = require('assert');
-const { Pool } = require('pg');
-
+import axios from 'axios';
+import assert from 'assert';
+import pkg from 'pg';
+const { Pool } = pkg;
 const { insertOTP, getOTPByEmail, deleteOTP } = require('./database.js');
 
 describe('Test Cases', () => {
